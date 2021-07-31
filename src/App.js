@@ -1,7 +1,8 @@
 
 import './App.css';
+import POP from './props';
 // import Clasebase from './classbase';
-import Pickernumber from './pickerNumber';
+// import Pickernumber from './pickerNumber';
 
 
 function App() {
@@ -9,7 +10,13 @@ function App() {
     <div className="App">
       <div>
         {/* <Clasebase/> */}
-        <Pickernumber/>
+        {/* <Pickernumber/> */}
+        <POP
+        to = "nelofar"
+        from = "Samira"
+       
+        />
+
        
       
        
