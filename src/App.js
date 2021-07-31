@@ -1,13 +1,16 @@
 
 import './App.css';
-import Clasebase from './classbase';
+// import Clasebase from './classbase';
+import Pickernumber from './pickerNumber';
 
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Clasebase/>
+        {/* <Clasebase/> */}
+        <Pickernumber/>
+       
       
        
       </div>
