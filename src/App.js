@@ -12,10 +12,24 @@ function App() {
         {/* <Clasebase/> */}
         {/* <Pickernumber/> */}
         <POP
-        to = "nelofar"
-        from = "Samira"
+        number = {1}
+        number1 = {1}
+        number2 = {1}
        
         />
+         <POP
+        number = {1}
+        number1 = {3}
+        number2 = {1}
+       
+        />
+        <POP
+        number = {2}
+        number1 = {2}
+        number2 = {2}
+       
+        />
+
 
        
       
