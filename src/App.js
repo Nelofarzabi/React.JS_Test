@@ -30,10 +30,13 @@ function App(){
         number2 = {2}
        /> */}
     
-       <StateComp />
+       <StateComp 
+       name = "nelofar "
+       className = "software"
+       />
        <State 
-       name ='nelo janm'
-
+       name ="vishwas "
+       className  = "IT"
        />
       
      
