@@ -6,7 +6,7 @@ import './App.css';
 // import Clasebase from './classbase';
 // import Pickernumber from './pickerNumber';
 import {StateComp} from "./state";
-import { Comp} from "./class"
+import {State } from "./class"
 
 
 function App(){
@@ -29,12 +29,25 @@ function App(){
         number1 = {2}
         number2 = {2}
        /> */}
-       <StateComp 
-       name ="nelofar "
-       id = {12}
-       class = 'A'
+    
+       <StateComp />
+       <State
+
        />
-       <Comp />
+      
+     
+   
+
+ 
+        
+     
+   
+
+
+
+
+
+
  
      
     </div>
