@@ -31,7 +31,8 @@ function App(){
        /> */}
     
        <StateComp />
-       <State
+       <State 
+       name ='nelo janm'
 
        />
       
