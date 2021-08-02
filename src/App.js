@@ -29,7 +29,11 @@ function App(){
         number1 = {2}
         number2 = {2}
        /> */}
-       <StateComp />
+       <StateComp 
+       name ="nelofar "
+       id = {12}
+       class = 'A'
+       />
        <Comp />
  
      
