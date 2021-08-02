@@ -1,11 +1,13 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 // import Loop from './state';
 // import POP from './props';
 // import Clasebase from './classbase';
 // import Pickernumber from './pickerNumber';
 import {StateComp} from "./state";
+import { Comp} from "./class"
+
 
 function App(){
   return (
@@ -28,6 +30,8 @@ function App(){
         number2 = {2}
        /> */}
        <StateComp />
+       <Comp />
+ 
      
     </div>
   );
