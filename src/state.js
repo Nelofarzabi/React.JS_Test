@@ -1,5 +1,10 @@
 
+export const StateComp = () => {
+    <div>
+        <h1> Hello React  </h1>
+        <h2>this is the default export !!!!! </h2>
 
-const StateComp = ()=> <h1>Hello  Arrow function component </h1>
+    </div>
 
-export  default StateComp ;
+
+}

@@ -5,7 +5,7 @@ import './App.css';
 // import POP from './props';
 // import Clasebase from './classbase';
 // import Pickernumber from './pickerNumber';
-import StateComp from "./state";
+import {StateComp} from "./state";
 
 function App(){
   return (
