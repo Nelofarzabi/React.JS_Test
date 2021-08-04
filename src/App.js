@@ -7,6 +7,7 @@ import './App.css';
 // import Pickernumber from './pickerNumber';
 import {StateComp} from "./state";
 import {State } from "./class"
+import Form from './from';
 
 
 function App(){
@@ -31,7 +32,9 @@ function App(){
        /> */}
     
        {/* <StateComp/> */}
-       <State/>
+       {/* <State/> */}
+       <Form/> 
+
       
      
    
