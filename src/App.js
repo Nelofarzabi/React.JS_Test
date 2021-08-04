@@ -30,14 +30,8 @@ function App(){
         number2 = {2}
        /> */}
     
-       <StateComp 
-       name = "nelofar "
-       className = "software"
-       />
-       <State 
-       name ="vishwas "
-       className  = "IT"
-       />
+       {/* <StateComp/> */}
+       <State/>
       
      
    

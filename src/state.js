@@ -1,14 +1,12 @@
 
-export const StateComp = (props) => {
-    const {name , className } = props;
+export const StateComp = () => {
+   
 
     return (
-        <div>
-            <h1>Hello {name }  you are in {className} class <h1>
-        </div>
+      <div><h1>hallo</h1></div>
 
 
-    )
+    );
 
 
 }
