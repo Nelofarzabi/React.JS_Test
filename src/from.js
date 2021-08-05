@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React , { Component } from "react";
 
 
 class Form extends Component {
@@ -22,7 +22,7 @@ class Form extends Component {
         })
 
     }
-    
+
     handleOnchangeUni = (event)=>{
         this.setState({
             Univercity : event.target.value ,
@@ -48,46 +48,46 @@ class Form extends Component {
 
             // Create form section
             <form onSubmit = {this.handleSubmit}>
-                <div>
+                <React.Fragment>
                     <h3>Registertion Form</h3>
-                </div>
+                </React.Fragment>
 
                  
-                <div>
+                <React.Fragment>
                     <label>UserName : </label>
                     <input
                         type='text'
                     value = {this.state.UserName}
                     onChange = {this.handleOnchange}
                     />
-                </div>
+                </React.Fragment>
 
 
 
-                <div>
+                <React.Fragment>
                     <label>Univercity : </label>
                     <input
                         type='text'
                     value = {this.state.Univercity}
                     onChange = {this.handleOnchangeUni}
                     />
-                </div>
+                </React.Fragment>
 
 
 
-                <div>
+                <React.Fragment>
                     <label>Class </label>
                     <select value ={this.state.Topic} onChange={this.handleOnchangeTopic}>
                         <option>React</option>
                         <option>Angualr</option>
                         <option>Vue </option>
                     </select>
-                </div>
+                </React.Fragment>
 
 
-                <div>
+                <React.Fragment>
                     <button tpye="submit" >submit form</button>
-                </div>
+                </React.Fragment>
 
             </form>
 
